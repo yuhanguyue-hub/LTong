@@ -79,4 +79,4 @@ jobs:
    
       env:
         key: ${{secrets.key1}}
-      run: node index.js unicom --user=${key}
+      run: ${key}
