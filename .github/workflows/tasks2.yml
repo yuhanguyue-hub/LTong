@@ -50,7 +50,7 @@ jobs:
       with:
         path: ${{ steps.npm-cache.outputs.dir }}
         key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
-
+									
     - name: restore npm dependencies
       uses: actions/cache@v2
       id: use-npm-depends
@@ -75,7 +75,7 @@ jobs:
  
 
     # 运行 unicom 签到任务
-    - name: Run unicom daily task
+    - name: Run unicom task2
    
       env:
         key: ${{secrets.key2}}
