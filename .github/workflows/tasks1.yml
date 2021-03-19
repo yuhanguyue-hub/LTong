@@ -75,8 +75,27 @@ jobs:
  
 
     # 运行 unicom 签到任务
-    - name: Run unicom task1
+    - name: Run unicom daily task
    
       env:
-        key: ${{secrets.key1}}
-      run: ${key}
+        key1: ${{secrets.key1}}
+      run: ${key1}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
