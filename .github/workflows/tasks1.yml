@@ -78,8 +78,18 @@ jobs:
     - name: Run unicom daily task
    
       env:
-        key1: ${{secrets.key1}}
-      run: ${key1}
+        k1: ${{secrets.key1}}
+      run: ${k}
+
+
+
+
+
+
+
+
+
+
 
 
 
